@@ -20,8 +20,7 @@
         <div class="marker" id="neworleans"><img src="http://www.riddell.com/media/catalog/product/3/0/3001966.png" /></div>
         <div class="marker" id="atlanta"><img src="http://www.riddell.com/media/catalog/product/3/0/30101_PL_Falcons_5.png" /></div>
         <div class="marker" id="carolina"><img src="http://www.riddell.com/media/catalog/product/3/0/3001628_SP_Panthers_3.png" /></div>
-        <img src="http://www.newthinktank.com/wp-content/uploads/2011/08/US-Map-EPS.png" />
-        </div>
+        
         <div class="marker" id="Minnesota"><img src="http://www.riddell.com/media/catalog/product/v/i/vikings_vsr4_mini_8004181.png" /></div>
         <div class="marker" id="greenbay"><img src="http://www.riddell.com/media/catalog/product/3/0/3001635_SP_Packers_3.png" /></div>
         <div class="marker" id="chicago"><img src="http://www.riddell.com/media/catalog/product/3/0/30104_PL_Bears_3.png" /></div>
@@ -30,6 +29,8 @@
         <div class="marker" id="newyork"><img src="http://www.riddell.com/media/catalog/product/3/0/3001644_SP_Giants_3.png" /></div>
         <div class="marker" id="washington"><img src="http://www.riddell.com/media/catalog/product/cache/1/image/475x/040ec09b1e35df139433887a97daa66f/3/0/30347_DR_Redskins_82_4.png" /></div>
         <div class="marker" id="dallas"><img src="http://www.riddell.com/media/catalog/product/3/0/30507_DR_Cowboys_3.png" /></div>
+        <img src="http://www.newthinktank.com/wp-content/uploads/2011/08/US-Map-EPS.png" />
+        </div>
         
 </div>
 
@@ -148,6 +149,17 @@
 	background-color:#fff;
 	padding:0.5em;
 	box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 1000px) {
+.container{
+	width:100%;
+}
+.textbox{
+	width:100%;
+}
+
+	
 }
 
 </style>
